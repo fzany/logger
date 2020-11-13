@@ -150,7 +150,7 @@ namespace Logger
 
         private void Test_Click(object sender, RoutedEventArgs e)
         {
-            RestClient client = new RestClient("https://oajibulu.azurewebsites.net/api/v1/ping");
+            RestClient client = new RestClient("https://oajibulu.azurewebsites.net/api/v1/ping"); //
             RestRequest request = new RestRequest(Method.GET);
             client.Execute(request);
         }
